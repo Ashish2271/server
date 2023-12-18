@@ -29,7 +29,7 @@ app.post('/email', async (req, res) => {
                   font-family: 'Arial', sans-serif;
                   margin: 0;
                   padding: 0;
-                  // background: url('https://img.freepik.com/free-photo/top-view-frame-with-presents-copy-space_23-2148325585.jpg?w=826&t=st=1702880119~exp=1702880719~hmac=dbe7b14ee7d9b13d3e76a399b5af70672fffa93f8408be2a0cb91cddafe40324') no-repeat center center fixed;
+               
                   background-size: cover;
                   color: #fff;
               }
@@ -60,12 +60,12 @@ app.post('/email', async (req, res) => {
       </head>
       <body>
           <div class="container">
-              // <img src="https://img.freepik.com/free-photo/top-view-frame-with-presents-copy-space_23-2148325585.jpg?w=826&t=st=1702880119~exp=1702880719~hmac=dbe7b14ee7d9b13d3e76a399b5af70672fffa93f8408be2a0cb91cddafe40324" alt="Gift Image">
+             
               <h2>Dear ${req.body.receiverName},</h2>
               <p>${req.body.greeting}! You have received a special gift.</p>
               <p>Details: ${req.body.giftDetails}</p>
               <p>Date: ${req.body.date}</p>
-              // <p>From: ${req.body.senderName} ${req.body.senderEmail ? `(${req.body.senderEmail})` : ''}</p>
+            
               <p>Enjoy your gift!</p>
           </div>
       </body>
