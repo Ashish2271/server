@@ -9,7 +9,7 @@ const resend = new Resend('re_Ku8uMD22_LNYxbCJiLx6iJpaHZgMMohft');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://www.myweb3gift.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // enable cookies and other credentials
   }));
