@@ -65,7 +65,7 @@ app.post('/email', async (req, res) => {
               <p>${req.body.greeting}! You have received a special gift.</p>
               <p>Details: ${req.body.giftDetails}</p>
               <p>Date: ${req.body.date}</p>
-              <p>From: ${req.body.senderName} ${req.body.senderEmail ? `(${req.body.senderEmail})` : ''}</p>
+              // <p>From: ${req.body.senderName} ${req.body.senderEmail ? `(${req.body.senderEmail})` : ''}</p>
               <p>Enjoy your gift!</p>
           </div>
       </body>
