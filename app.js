@@ -543,7 +543,7 @@ app.post('/email', async (req, res) => {
     `;
 
     const data = await resend.emails.send({
-      from: 'MyWeb3Gift <noreply@myweb3gift.com>',
+      from: 'MyWeb3Gift <no.reply@myweb3gift.com>',
       to: req.body.receiverEmail,
       subject: 'Hello World',
       html: htmlTemplate,
