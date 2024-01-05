@@ -5,8 +5,7 @@ import { Resend } from "resend";
 import cors from 'cors'
 
 
-const resend = new Resend('
-re_du1djgLX_2J48D8E17qqQZfZ4ntTZ9xy8');
+const resend = new Resend('re_du1djgLX_2J48D8E17qqQZfZ4ntTZ9xy8');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
