@@ -9,7 +9,7 @@ const resend = new Resend('re_du1djgLX_2J48D8E17qqQZfZ4ntTZ9xy8');
 const app = express();
 app.use(bodyParser.json());
 app.use(cors({
-    origin: 'https://www.myweb3gift.com','https://myweb3gift-git-mtest2-arpit3210.vercel.app/'
+    origin: 'https://www.myweb3gift.com','https://myweb3gift-git-mtest2-arpit3210.vercel.app'
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // enable cookies and other credentials
   }));
