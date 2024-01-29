@@ -293,7 +293,7 @@ app.post('/email', async (req, res) => {
       <!--[if mso]><style>.v-button {background: transparent !important;}</style><![endif]-->
     <div align="center">
       <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.unlayer.com" style="height:63px; v-text-anchor:middle; width:186px;" arcsize="6.5%"  stroke="f" fillcolor="#f1c40f"><w:anchorlock/><center style="color:#FFFFFF;"><![endif]-->
-        <a href="https://www.myweb3gift.com/MyGifts" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #f1c40f; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:32%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
+        <a href="https://myweb3gift-git-test3-arpit3210.vercel.app/mygifts" target="_blank" class="v-button v-size-width v-font-size" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #FFFFFF; background-color: #f1c40f; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:32%; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-size: 14px;">
           <span style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 18px; line-height: 21.6px;"><strong>Open MyWeb3Gift</strong></span></span>
         </a>
         
