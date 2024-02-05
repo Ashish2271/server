@@ -179,7 +179,7 @@ app.post('/email', async (req, res) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:0px 10px 10px;font-family:'Open Sans',sans-serif;" align="left">
             
       <!--[if mso]><table width="100%"><tr><td><![endif]-->
-        <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 100%; text-align: center; word-wrap: break-word; font-family: 'Montserrat',sans-serif; font-size: 60px; font-weight: 400;"><span><span><strong>You Received Gift</strong></span></span></h1>
+        <h1 class="v-font-size" style="margin: 0px; color: #ffffff; line-height: 100%; text-align: center; word-wrap: break-word; font-family: 'Montserrat',sans-serif; font-size: 60px; font-weight: 400;"><span><span><strong>You Received a Gift</strong></span></span></h1>
       <!--[if mso]></td></tr></table><![endif]-->
     
           </td>
