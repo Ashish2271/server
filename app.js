@@ -231,7 +231,7 @@ app.post('/email', async (req, res) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 60px;font-family:'Open Sans',sans-serif;" align="left">
             
       <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 170%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 170%;">Message from ${req.body.senderName}<br />${req.body.greeting} </p>
+        <p style="font-size: 14px; line-height: 170%;">${req.body.greeting} </p>
       </div>
     
           </td>
