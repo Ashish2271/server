@@ -15,7 +15,8 @@ app.use(cors({
     'http://localhost:3000',
     'https://myweb3gift-git-test2-arpit3210.vercel.app',
     'https://myweb3gift-git-test1-arpit3210.vercel.app',
-    'https://myweb3gift-git-test3-arpit3210.vercel.app'
+    'https://myweb3gift-git-test3-arpit3210.vercel.app',
+    'https://myweb3gift-git-10days-arpit3210.vercel.app'
   ],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
