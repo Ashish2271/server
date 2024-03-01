@@ -213,7 +213,7 @@ app.post('/email', async (req, res) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 60px;font-family:'Open Sans',sans-serif;" align="left">
             
       <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 170%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 170%;"><br />${req.body.greeting}Â </p>
+        <p style="font-size: 14px; line-height: 170%;"><br />${req.body.greeting} </p>
       </div>
     
           </td>
@@ -272,7 +272,7 @@ app.post('/email', async (req, res) => {
           <span style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 18px; line-height: 21.6px;"><strong>Open MyWeb3Gift</strong></span></span>
         </a>
         
-       <p style="font-size: 14px; color:white; text:center; line-height: 170%;">  Please Login With Receiver EmailÂ </p>
+       <p style="font-size: 14px; color:white; text:center; line-height: 170%;">  Please Login With Receiver Email </p>
         <!--[if mso]></center></v:roundrect><![endif]-->
     </div>
     
@@ -682,7 +682,7 @@ app.post('/senderemail', async (req, res) => {
           <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:10px 60px;font-family:'Open Sans',sans-serif;" align="left">
             
       <div class="v-font-size" style="font-size: 14px; color: #ffffff; line-height: 170%; text-align: center; word-wrap: break-word;">
-        <p style="font-size: 14px; line-height: 170%;"><br />${req.body.greeting}Â </p>
+        <p style="font-size: 14px; line-height: 170%;"><br />${req.body.greeting} </p>
       </div>
     
           </td>
@@ -733,7 +733,7 @@ app.post('/senderemail', async (req, res) => {
           <span style="display:block;padding:10px 20px;line-height:120%;"><span style="font-size: 18px; line-height: 21.6px;"><strong>Sent Gift History</strong></span></span>
         </a>
         
-       <p style="font-size: 14px; color:white; text:center; line-height: 170%;">  Please Login With Sender EmailÂ </p>
+       <p style="font-size: 14px; color:white; text:center; line-height: 170%;">  Please Login With Sender Email </p>
      
     </div>
     
